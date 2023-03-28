@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">     
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="score-board">
+            <h1 class="title">Basketball Scoreboard</h1>
+            <div class="container">
+                <div>
+                    <h3 class="teams">HOME</h3>
+                    <div id="home-el" class="score-boxes">0</div>
+                        <button class="btn hover-effect" onclick="homeBtn1()">+1</button>
+                        <button class="btn hover-effect" onclick="homeBtn2()">+2</button>
+                        <button class="btn hover-effect" onclick="homeBtn3()">+3</button>
+                </div>
+                <div class="new-game"><button id="btnNew" class="hover-effect" onclick="newGame()">New Game</button></div>
+                <div>
+                    <h3 class="teams">GUEST</h3>
+                    <div id="guest-el" class="score-boxes">0</div>
+                        <button class="btn hover-effect" onclick="guestBtn1()">+1</button>
+                        <button class="btn hover-effect" onclick="guestBtn2()">+2</button>
+                        <button class="btn hover-effect" onclick="guestBtn3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
